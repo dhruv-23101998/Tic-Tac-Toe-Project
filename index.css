@@ -1,0 +1,194 @@
+body
+{
+	background-image:url("css3.jpg");
+	font-family: 'Kavivanar', cursive;
+	font-size:100%;
+}
+header,main,footer
+{
+	min-width:1200px;
+	padding:20px;
+}
+header,main
+{
+	margin:auto;
+	background:white;
+	overflow:auto;
+}
+header
+{
+	background-image:url("css2.jpg");
+}
+footer
+{
+	background-image:url("css3.jpg");
+}
+header h1
+{
+	width:400px;
+	font-size:3em;
+	margin:auto;
+	color:maroon;
+}
+a
+{
+	color:red;
+	text-decoration:none;
+}
+a:hover
+{
+	text-decoration:underline;
+}
+a:visited
+{
+	color:purple;
+}
+main .tabs
+{
+	margin:auto;
+	width:250px;
+	padding:10px;
+}
+main .grid
+{
+	margin:auto;
+	padding:10px;
+	width:490px;
+	height:490px;
+}
+.row1,.row2,.row3
+{
+	clear:both;
+}
+.c1,.c2,.c3
+{
+	width:150px;
+	height:150px;
+	float:left;
+	border:1px solid black;
+}
+.c4,.c5,.c6
+{
+	width:150px;
+	height:150px;
+	float:left;
+	border:1px solid black;
+}
+.c7,.c8,.c9
+{
+	width:150px;
+	height:150px;
+	float:left;
+	border:1px solid black;
+}
+.c1
+{
+	border-left:none;
+	border-top:none;
+}
+.c2
+{
+	border-top:none;
+}
+.c3
+{
+	border-top:none;
+	border-right:none;
+}
+.c4
+{
+	border-left:none;
+}
+.c6
+{
+	border-right:none;
+}
+.c7
+{
+	border-left:none;
+	border-bottom:none;
+}
+.c8
+{
+	border-bottom:none;
+}
+.c9
+{
+	border-right:none;
+	border-bottom:none;
+}
+.c1data,.c2data,.c3data,.c4data,.c5data,.c6data,.c7data,.c8data,.c9data
+{
+	margin:auto;
+	font-size:1.5em;
+	width:10px;
+	padding:70px;
+}
+.tabs a span
+{
+	margin:auto;
+	display:inline-block;
+	border-radius:5px 5px 0 0;
+	font-size:1.2em;
+	width:200px
+	text-align:center;
+	padding:10px;
+	background:#ddd;
+}
+.content
+{
+	max-width:800px;
+	margin:auto;
+	padding:10px;
+}
+.content p
+{
+	margin:auto;
+	overflow:auto;
+	font-size:1.2em;
+	padding:10px;
+}
+.content .button1
+{
+	float:left;
+}
+.content .button2
+{
+	float:right;
+}
+.result
+{
+	padding:10px;
+	margin:auto;
+	width:160px;
+}
+.result p
+{
+	color:red;
+	font-size:1.2em;
+}
+.reset
+{
+	padding:10px;
+	margin:auto;
+	width:130px;
+}
+footer p
+{
+	width:500px;
+	margin:auto;
+	font-size:1.5em;
+	color:solid black;
+}
+button
+{
+	font-size:20px;
+	background:#4CAF50;
+	font-family: 'Kavivanar', cursive;
+	text-align:center;
+	border:none;
+	color:white;
+	margin:auto;
+	padding:10px;
+	border-radius:2px;
+}
